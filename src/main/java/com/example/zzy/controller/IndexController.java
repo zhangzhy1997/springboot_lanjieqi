@@ -22,7 +22,7 @@ public class IndexController {
     public JSONObject login(HttpServletRequest request, String name) throws Exception
     {
         JSONObject obj = new JSONObject();
-        obj.put("msg","用户："+name+"，登录成功!");
+        obj.put("msg","用户："+name+"，登录成功!！");
         //将返回值写入到请求对象中
         request.setAttribute(LoggerUtils.LOGGER_RETURN,obj);
         return obj;
